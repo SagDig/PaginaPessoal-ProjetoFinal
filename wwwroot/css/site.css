@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+  color:aliceblue;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: rgb(13, 33, 31);
+  color: white;
+}
+
+.Img2{
+ border-radius: 20px;
+}
+
+.eve{
+  border-radius: 20px;
+  border: solid 2.5px rgb(83, 255, 158);
+}
+
+.aquela{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: left;
+}
